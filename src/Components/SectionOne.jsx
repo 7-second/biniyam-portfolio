@@ -21,18 +21,15 @@ function SectionOne() {
         </h1>
         <div className="flex flex-wrap justify-center gap-4 sm:gap-6 md:gap-8">
           {skill.map((item, id) => (
-            <a
+            <div
               key={id}
-              href={item.link}
-              target="_blank"
-              rel="noopener noreferrer"
               className="group w-[120px] sm:w-[140px] md:w-[180px] h-24 sm:h-28 md:h-32 bg-white shadow-md hover:shadow-xl rounded-2xl flex flex-col items-center justify-center transition-transform transform hover:scale-105 hover:bg-teal-100 border border-transparent hover:border-teal-400"
             >
               <item.icon className="text-teal-600 group-hover:text-teal-800 w-8 h-8 sm:w-10 sm:h-10 mb-2 transition-colors duration-300" />
               <span className="text-sm sm:text-base font-medium text-teal-700 group-hover:text-teal-900">
                 {item.name}
               </span>
-            </a>
+            </div>
           ))}
         </div>
       </section>
