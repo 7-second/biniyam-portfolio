@@ -45,13 +45,13 @@ function Footer() {
         <div className="flex flex-col items-center md:items-end text-center md:text-right gap-4">
           <h2 className="text-2xl font-semibold mb-2">Follow Me</h2>
           <div className="flex flex-col gap-3 text-lg">
-            <a href="https://instagram.com/" target="_blank" rel="noopener noreferrer" className="flex items-center gap-2 hover:text-pink-400 transition-all">
+            <a href="https://www.instagram.com/biniyamgossa?utm_source=qr&igsh=Z2ZtMWZuaThudW83" target="_blank" rel="noopener noreferrer" className="flex items-center gap-2 hover:text-pink-400 transition-all">
               <FaInstagram className="text-pink-500" /> Instagram
             </a>
-            <a href="https://facebook.com/" target="_blank" rel="noopener noreferrer" className="flex items-center gap-2 hover:text-blue-400 transition-all">
+            <a href="https://www.facebook.com/biniyam.gossa.5" target="_blank" rel="noopener noreferrer" className="flex items-center gap-2 hover:text-blue-400 transition-all">
               <FaFacebook className="text-blue-600" /> Facebook
             </a>
-            <a href="https://tiktok.com/" target="_blank" rel="noopener noreferrer" className="flex items-center gap-2 hover:text-black transition-all">
+            <a href="https://www.tiktok.com/@biniyamgossa?_t=ZM-8vRlBuZPJ4P&_r=1" target="_blank" rel="noopener noreferrer" className="flex items-center gap-2 hover:text-black transition-all">
               <FaTiktok className="text-white" /> TikTok
             </a>
           </div>

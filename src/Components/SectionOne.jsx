@@ -73,14 +73,14 @@ function SectionOne() {
   );
 }
 
-// Animated percentage component
+//  Animated percentage component
 const AnimatedPercentage = ({ percentage }) => {
   const [count, setCount] = useState(0);
 
   useEffect(() => {
     let start = 0;
     const end = percentage;
-    const duration = 2; // Duration in seconds
+    const duration = 2; 
     const stepTime = Math.abs(Math.floor(duration * 1000 / end));
     let timer = setInterval(() => {
       start += 1;
@@ -107,7 +107,7 @@ const ProgressBar = ({ percentage }) => {
   useEffect(() => {
     let start = 0;
     const end = percentage;
-    const duration = 2; // Duration in seconds
+    const duration = 23; 
     const stepTime = Math.abs(Math.floor(duration * 1000 / end));
     let timer = setInterval(() => {
       start += 1;

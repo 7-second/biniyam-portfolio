@@ -1,6 +1,7 @@
 import React from "react";
 import movie from "../assets/personal project/best.png";
 import food from "../assets/personal project/food.png";
+import weather from "../assets/personal project/weather.png";
 
 function SectionTwo() {
   const personalProjects = [
@@ -17,6 +18,13 @@ function SectionTwo() {
       description: "Showcase for food service organizations",
       link: "https://b-food.vercel.app/",
       status: "UI and Frontend",
+    },
+    {
+      name: "B-Weather",
+      image: food,
+      description: "Search any city weathe",
+      link: "https://b-w.vercel.app/",
+      status: "Under Development",
     },
     {
       name: "Coming Soon",
