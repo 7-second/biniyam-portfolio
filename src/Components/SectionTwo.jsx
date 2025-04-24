@@ -21,7 +21,7 @@ function SectionTwo() {
     },
     {
       name: "B-Weather",
-      image: food,
+      image: weather,
       description: "Search any city weathe",
       link: "https://b-w.vercel.app/",
       status: "Under Development",
